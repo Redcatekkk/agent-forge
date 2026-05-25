@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/agent-forge-terminal-v2.svg" alt="Agent-Forge terminal preview" width="100%">
+  <img src="docs/assets/agent-forge-cover.svg" alt="Agent-Forge cover image" width="100%">
 </p>
 
 <h1 align="center">Agent-Forge</h1>
@@ -198,7 +198,7 @@ agent-forge/
 |   +-- openapi-billing/
 |   +-- pattern-service/
 +-- docs/assets/
-|   +-- agent-forge-terminal-v2.svg
+|   +-- agent-forge-cover.svg
 |   +-- agent-forge-flow.svg
 |   +-- agent-forge-animated.svg
 +-- tests/

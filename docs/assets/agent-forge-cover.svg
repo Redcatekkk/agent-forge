@@ -1,0 +1,54 @@
+<svg width="1120" height="620" viewBox="0 0 1120 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agent-Forge cover</title>
+  <desc id="desc">Agent-Forge turns legacy repositories into SKILL.md files and MCP tool catalogs.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1120" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#071B2D"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="250" y1="160" x2="870" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="192" y1="390" x2="928" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="shadow" x="58" y="42" width="1004" height="528" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="34" flood-color="#000814" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1120" height="620" fill="url(#bg)"/>
+  <circle cx="934" cy="120" r="190" fill="#0EA5E9" opacity="0.13"/>
+  <circle cx="150" cy="530" r="230" fill="#8B5CF6" opacity="0.12"/>
+  <g filter="url(#shadow)">
+    <rect x="92" y="82" width="936" height="456" rx="24" fill="#0B1020" stroke="#1E293B" stroke-width="2"/>
+    <rect x="92" y="82" width="936" height="54" rx="24" fill="#111827"/>
+    <circle cx="128" cy="109" r="7" fill="#FB7185"/>
+    <circle cx="153" cy="109" r="7" fill="#FBBF24"/>
+    <circle cx="178" cy="109" r="7" fill="#34D399"/>
+    <text x="560" y="116" fill="#94A3B8" font-family="Consolas, SFMono-Regular, monospace" font-size="14" text-anchor="middle">agent-forge ./examples/pattern-service</text>
+    <text x="560" y="238" fill="url(#titleGradient)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="0" text-anchor="middle">Agent-Forge</text>
+    <text x="560" y="288" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="500" text-anchor="middle">Turn repo sprawl into one agent-readable map</text>
+    <g>
+      <rect x="188" y="350" width="190" height="86" rx="14" fill="#0F172A" stroke="#334155"/>
+      <text x="283" y="384" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">Legacy repo</text>
+      <text x="283" y="412" fill="#94A3B8" font-family="Consolas, SFMono-Regular, monospace" font-size="14" text-anchor="middle">routes + schemas</text>
+    </g>
+    <path d="M392 393H728" stroke="url(#rail)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="560" cy="393" r="10" fill="#22D3EE"/>
+    <g>
+      <rect x="465" y="350" width="190" height="86" rx="14" fill="#082F49" stroke="#0EA5E9"/>
+      <text x="560" y="384" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">SKILL.md</text>
+      <text x="560" y="412" fill="#BAE6FD" font-family="Consolas, SFMono-Regular, monospace" font-size="14" text-anchor="middle">context condensed</text>
+    </g>
+    <g>
+      <rect x="742" y="350" width="190" height="86" rx="14" fill="#221044" stroke="#8B5CF6"/>
+      <text x="837" y="384" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">MCP tools</text>
+      <text x="837" y="412" fill="#DDD6FE" font-family="Consolas, SFMono-Regular, monospace" font-size="14" text-anchor="middle">tools/list ready</text>
+    </g>
+  </g>
+</svg>
