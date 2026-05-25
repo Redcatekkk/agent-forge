@@ -26,14 +26,8 @@
     <circle cx="136" cy="96" r="7" fill="#FBBF24"/>
     <circle cx="160" cy="96" r="7" fill="#34D399"/>
     <text x="520" y="102" fill="#94A3B8" font-family="Consolas, 'SFMono-Regular', monospace" font-size="14" text-anchor="middle">agent-forge.exe ./examples/pattern-service</text>
-    <text x="118" y="156" fill="url(#accent)" font-family="Consolas, 'SFMono-Regular', monospace" font-size="21" font-weight="700">
-      <tspan x="118" dy="0"> █████╗  ██████╗ ███████╗███╗   ██╗████████╗</tspan>
-      <tspan x="118" dy="27">██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝</tspan>
-      <tspan x="118" dy="27">███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   </tspan>
-      <tspan x="118" dy="27">██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   </tspan>
-      <tspan x="118" dy="27">██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   </tspan>
-      <tspan x="118" dy="27">╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   </tspan>
-    </text>
+    <text x="132" y="220" fill="url(#accent)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="74" font-weight="800" letter-spacing="0">Agent-Forge</text>
+    <text x="136" y="262" fill="#94A3B8" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18">Forge repo context into SKILL.md and MCP tools</text>
     <text x="132" y="334" fill="#CBD5E1" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18">
       <tspan fill="#67E8F9">Context condensation</tspan>
       <tspan fill="#64748B"> | </tspan>

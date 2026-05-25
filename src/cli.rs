@@ -127,15 +127,10 @@ fn print_banner() {
     }
 
     let lines = [
-        " █████╗  ██████╗ ███████╗███╗   ██╗████████╗",
-        "██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝",
-        "███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   ",
-        "██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   ",
-        "██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   ",
-        "╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ",
-        "        FORGE  repo context into MCP tools",
+        "AGENT-FORGE",
+        "Forge repo context into SKILL.md and MCP tools",
     ];
-    let colors = [39, 45, 51, 87, 123, 159, 111];
+    let colors = [45, 111];
 
     for (line, color) in lines.iter().zip(colors) {
         eprintln!("{}", style(*line).color256(color).bold());

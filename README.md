@@ -156,7 +156,7 @@ That makes Agent-Forge a bridge between older repositories and MCP-aware tools s
 
 Agent-Forge is designed to feel good in the terminal:
 
-- Gradient terminal wordmark
+- Clean terminal wordmark
 - TUI progress indicator
 - `--dry-run` preview mode
 - `--interactive` setup form
