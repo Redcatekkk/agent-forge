@@ -7,7 +7,7 @@
       <stop offset="0.52" stop-color="#111827"/>
       <stop offset="1" stop-color="#061B2E"/>
     </linearGradient>
-    <linearGradient id="accent" x1="170" y1="96" x2="940" y2="172" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="132" y1="120" x2="780" y2="268" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22D3EE"/>
       <stop offset="0.48" stop-color="#38BDF8"/>
       <stop offset="1" stop-color="#A78BFA"/>
@@ -26,33 +26,34 @@
     <circle cx="136" cy="96" r="7" fill="#FBBF24"/>
     <circle cx="160" cy="96" r="7" fill="#34D399"/>
     <text x="520" y="102" fill="#94A3B8" font-family="Consolas, 'SFMono-Regular', monospace" font-size="14" text-anchor="middle">agent-forge.exe ./examples/pattern-service</text>
-    <text x="126" y="158" fill="url(#accent)" font-family="Consolas, 'SFMono-Regular', monospace" font-size="22" font-weight="700">
-      <tspan x="126" dy="0">    _                    __        ______</tspan>
-      <tspan x="126" dy="28">   / \   __ _  ___ _ __ / /_      / / ___|___  _ __ ___  ___</tspan>
-      <tspan x="126" dy="28">  / _ \ / _` |/ _ \ '_ \ '_ \ /\ / / |   / _ \| '__/ _ \/ __|</tspan>
-      <tspan x="126" dy="28"> / ___ \ (_| |  __/ | | | | | \ V /| |__| (_) | | |  __/\__ \</tspan>
-      <tspan x="126" dy="28">/_/   \_\__, |\___|_| |_|_| |_| \_/  \____\___/|_|  \___||___/</tspan>
+    <text x="118" y="156" fill="url(#accent)" font-family="Consolas, 'SFMono-Regular', monospace" font-size="21" font-weight="700">
+      <tspan x="118" dy="0"> █████╗  ██████╗ ███████╗███╗   ██╗████████╗</tspan>
+      <tspan x="118" dy="27">██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝</tspan>
+      <tspan x="118" dy="27">███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║   </tspan>
+      <tspan x="118" dy="27">██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║   </tspan>
+      <tspan x="118" dy="27">██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║   </tspan>
+      <tspan x="118" dy="27">╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   </tspan>
     </text>
-    <text x="126" y="334" fill="#CBD5E1" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18">
+    <text x="132" y="334" fill="#CBD5E1" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18">
       <tspan fill="#67E8F9">Context condensation</tspan>
       <tspan fill="#64748B"> | </tspan>
       <tspan fill="#93C5FD">OpenAPI-first</tspan>
       <tspan fill="#64748B"> | </tspan>
       <tspan fill="#C4B5FD">MCP stdio catalog</tspan>
     </text>
-    <rect x="126" y="372" width="760" height="16" rx="8" fill="#1E293B"/>
-    <rect x="126" y="372" width="622" height="16" rx="8" fill="#22D3EE"/>
-    <text x="126" y="422" fill="#E2E8F0" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18">Discovered 6 entry point(s)</text>
-    <text x="126" y="466" fill="#94A3B8" font-family="Consolas, 'SFMono-Regular', monospace" font-size="16">
-      <tspan x="126" dy="0">Generated ./examples/pattern-service/SKILL.md</tspan>
-      <tspan x="126" dy="28">Generated ./examples/pattern-service/mcp-config.json</tspan>
-      <tspan x="126" dy="44" fill="#F8FAFC">Press Enter to close...</tspan>
+    <rect x="132" y="372" width="760" height="16" rx="8" fill="#1E293B"/>
+    <rect x="132" y="372" width="622" height="16" rx="8" fill="#22D3EE"/>
+    <text x="132" y="422" fill="#E2E8F0" font-family="Consolas, 'SFMono-Regular', monospace" font-size="18">Discovered 6 entry point(s)</text>
+    <text x="132" y="466" fill="#94A3B8" font-family="Consolas, 'SFMono-Regular', monospace" font-size="16">
+      <tspan x="132" dy="0">Generated ./examples/pattern-service/SKILL.md</tspan>
+      <tspan x="132" dy="28">Generated ./examples/pattern-service/mcp-config.json</tspan>
+      <tspan x="132" dy="44" fill="#F8FAFC">Press Enter to close...</tspan>
     </text>
-    <rect x="742" y="430" width="214" height="112" rx="10" fill="#0F172A" stroke="#334155"/>
-    <text x="766" y="464" fill="#E2E8F0" font-family="Consolas, 'SFMono-Regular', monospace" font-size="15">
-      <tspan x="766" dy="0">SKILL.md</tspan>
-      <tspan x="766" dy="28" fill="#94A3B8">mcp-config.json</tspan>
-      <tspan x="766" dy="28" fill="#67E8F9">agent-forge serve</tspan>
+    <rect x="748" y="430" width="214" height="112" rx="10" fill="#0F172A" stroke="#334155"/>
+    <text x="772" y="464" fill="#E2E8F0" font-family="Consolas, 'SFMono-Regular', monospace" font-size="15">
+      <tspan x="772" dy="0">SKILL.md</tspan>
+      <tspan x="772" dy="28" fill="#94A3B8">mcp-config.json</tspan>
+      <tspan x="772" dy="28" fill="#67E8F9">agent-forge serve</tspan>
     </text>
   </g>
 </svg>
