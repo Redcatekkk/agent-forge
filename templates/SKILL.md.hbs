@@ -1,0 +1,38 @@
+# {{report.repo_name}}
+
+## Core Purpose
+
+This repository exposes {{entry_point_count}} agent-usable entry point(s). Use it to call, inspect, or extend the service capabilities listed below.
+
+## Context Condensation
+
+{{#if should_condense}}
+Start with this `SKILL.md` before opening source files. Agent-Forge condensed {{report.files_scanned}} files into the critical entry points below, which keeps context-window usage and token cost low.
+{{else}}
+This repository is small enough for direct inspection, but this `SKILL.md` is still the fastest map of its agent-usable surface.
+{{/if}}
+
+## Critical Paths
+
+{{#each report.entry_points}}
+- `{{name}}`{{#if method}} (`{{method}} {{route}}`){{/if}} via {{framework}} in `{{file}}`: {{intent}}
+{{#each args}}{{#if @first}}  Inputs: {{/if}}`{{name}}`{{#if required}} required{{else}} optional{{/if}}{{#unless @last}}, {{/unless}}{{/each}}
+{{/each}}
+
+## Common Gotchas
+
+{{#if has_warnings}}
+{{#each report.warnings}}
+- {{this}}
+{{/each}}
+{{else}}
+- OpenAPI metadata was available, so generated tools reflect the contract more than source naming conventions.
+{{/if}}
+- Verify authentication, environment variables, and side effects before invoking write-oriented endpoints.
+- Prefer the generated `mcp-config.json` schemas when preparing tool calls.
+
+## Example Agent Workflows
+
+- Discover capability: read the Critical Paths section, choose the entry point whose intent matches the user request, then inspect required inputs.
+- Prepare invocation: map user-provided values to the MCP tool input schema and ask for any missing required arguments.
+- Modify behavior: edit the source file listed beside the entry point, then regenerate this skill to keep the agent guide current.

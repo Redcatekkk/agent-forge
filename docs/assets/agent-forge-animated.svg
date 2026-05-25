@@ -1,0 +1,39 @@
+<svg width="1120" height="260" viewBox="0 0 1120 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agent-Forge animated scan</title>
+  <desc id="desc">An animated line moves from repository files to SKILL.md and MCP tools.</desc>
+  <defs>
+    <linearGradient id="rail" x1="120" y1="130" x2="1000" y2="130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1120" height="260" rx="24" fill="#070D18"/>
+  <text x="70" y="58" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">From codebase sprawl to one agent-readable map</text>
+  <path d="M120 138 C 280 80, 390 80, 540 138 S 800 196, 1000 138" stroke="#1E293B" stroke-width="8" stroke-linecap="round"/>
+  <path d="M120 138 C 280 80, 390 80, 540 138 S 800 196, 1000 138" stroke="url(#rail)" stroke-width="4" stroke-linecap="round" stroke-dasharray="80 760" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-840" dur="3.2s" repeatCount="indefinite"/>
+  </path>
+  <g>
+    <rect x="70" y="96" width="170" height="88" rx="14" fill="#0F172A" stroke="#334155"/>
+    <text x="104" y="132" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Repo</text>
+    <text x="104" y="160" fill="#94A3B8" font-family="Consolas, monospace" font-size="14">100+ files</text>
+  </g>
+  <g>
+    <rect x="475" y="96" width="170" height="88" rx="14" fill="#0B2740" stroke="#0EA5E9"/>
+    <text x="514" y="132" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">SKILL.md</text>
+    <text x="502" y="160" fill="#BAE6FD" font-family="Consolas, monospace" font-size="14">condensed</text>
+  </g>
+  <g>
+    <rect x="880" y="96" width="170" height="88" rx="14" fill="#221044" stroke="#8B5CF6"/>
+    <text x="926" y="132" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">MCP</text>
+    <text x="910" y="160" fill="#DDD6FE" font-family="Consolas, monospace" font-size="14">tools/list</text>
+  </g>
+</svg>

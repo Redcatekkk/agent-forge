@@ -1,0 +1,51 @@
+<svg width="1120" height="420" viewBox="0 0 1120 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agent-Forge workflow diagram</title>
+  <desc id="desc">Repository files are scanned, condensed into SKILL.md, and exposed as MCP tools.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="90" y1="0" x2="1030" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="420" rx="24" fill="#070D18"/>
+  <path d="M196 210H924" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 14"/>
+  <g>
+    <rect x="64" y="88" width="250" height="244" rx="16" fill="url(#card)" stroke="#1E293B"/>
+    <text x="96" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Legacy repo</text>
+    <text x="96" y="178" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="16">
+      <tspan x="96" dy="0">Controllers</tspan>
+      <tspan x="96" dy="28">OpenAPI specs</tspan>
+      <tspan x="96" dy="28">GraphQL schemas</tspan>
+      <tspan x="96" dy="28">CLI commands</tspan>
+    </text>
+    <text x="96" y="292" fill="#22D3EE" font-family="Consolas, monospace" font-size="15">recursive local scan</text>
+  </g>
+  <g>
+    <rect x="435" y="68" width="250" height="284" rx="16" fill="url(#card)" stroke="#334155"/>
+    <text x="467" y="118" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Condensed map</text>
+    <text x="467" y="158" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="16">
+      <tspan x="467" dy="0">Core purpose</tspan>
+      <tspan x="467" dy="28">Critical paths</tspan>
+      <tspan x="467" dy="28">Gotchas</tspan>
+      <tspan x="467" dy="28">Agent workflows</tspan>
+    </text>
+    <rect x="467" y="258" width="174" height="42" rx="8" fill="#082F49" stroke="#0EA5E9"/>
+    <text x="494" y="285" fill="#BAE6FD" font-family="Consolas, monospace" font-size="16">SKILL.md</text>
+  </g>
+  <g>
+    <rect x="806" y="88" width="250" height="244" rx="16" fill="url(#card)" stroke="#1E293B"/>
+    <text x="838" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">MCP tools</text>
+    <text x="838" y="178" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="16">
+      <tspan x="838" dy="0">JSON Schema inputs</tspan>
+      <tspan x="838" dy="28">Desktop app config</tspan>
+      <tspan x="838" dy="28">stdio catalog server</tspan>
+    </text>
+    <rect x="838" y="258" width="174" height="42" rx="8" fill="#2E1065" stroke="#8B5CF6"/>
+    <text x="862" y="285" fill="#DDD6FE" font-family="Consolas, monospace" font-size="16">mcp-config.json</text>
+  </g>
+</svg>

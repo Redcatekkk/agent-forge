@@ -1,0 +1,13 @@
+type Query {
+  user(id: ID!): User
+}
+
+type Mutation {
+  deactivateUser(id: ID!, reason: String): User
+}
+
+type User {
+  id: ID!
+  email: String!
+  active: Boolean!
+}

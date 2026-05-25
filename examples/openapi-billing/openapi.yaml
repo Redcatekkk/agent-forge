@@ -1,0 +1,32 @@
+openapi: 3.0.0
+info:
+  title: Billing API
+  version: 1.0.0
+paths:
+  /customers/{customerId}/invoices:
+    get:
+      operationId: listCustomerInvoices
+      summary: List invoices for a customer
+      parameters:
+        - name: customerId
+          in: path
+          required: true
+          description: Customer identifier
+          schema:
+            type: string
+        - name: limit
+          in: query
+          required: false
+          description: Maximum invoices to return
+          schema:
+            type: integer
+  /charges:
+    post:
+      operationId: createCharge
+      summary: Create a payment charge
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
